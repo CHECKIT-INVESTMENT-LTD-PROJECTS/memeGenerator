@@ -1,13 +1,108 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.Header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    width: 100%;
+    height: 4.0625rem; /* 65px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: cover;
+    color: white;
+    font-size: 1.3125rem; /* 21px */
+    font-weight: 700;
+    line-height: 1.5rem; /* 24px */
+    letter-spacing: -0.1em;
+    text-align: left;
+    font-family: Karla;
+}
+
+.Header--logo {
+    display: flex;
+    align-items: center;
+    padding-left: 1.8125rem; /* 29px */
+}
+
+.Header--img {
+    height: 1.875rem; /* 30px */
+}
+
+.Header--p {
+    font-family: Inter;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 500;
+    line-height: 0.9375rem; /* 15px */
+    letter-spacing: 0em;
+    text-align: right;
+    padding-right: 1.8125rem;
+}
+
+.inputForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.3125rem; /* 37px */
+    padding-right: 2.3125rem; /* 37px */
+}
+
+.input {
+    width: 13.875rem; /* 222px */
+    height: 3.4375rem; /* 55px */
+    gap: 0.1875rem; /* 3px */
+    padding-top:  2.3125rem; /* 37px */
+    /*padding-right:  2.3125rem; !* 37px *!*/
+}
+.input_right {
+    width: 13.875rem; /* 222px */
+    height: 3.4375rem; /* 55px */
+    gap: 0.1875rem; /* 3px */
+    padding-top:  2.3125rem; /* 37px */
+    padding-right: 1.4rem;
+    /*padding-right:  2.3125rem; !* 37px *!*/
+}
+
+.input-field {
+    width: 13.875rem; /* 222px */
+    height: 2.125rem; /* 34px */
+    padding: 0.4375rem 0.6875rem 0.4375rem 0.6875rem; /* 7px 11px 7px 11px */
+    border-radius: 0.3125rem; /* 5px */
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 0.0625rem 0.125rem 0px #0000000D; /* 0px 1px 2px 0px #0000000D */
+    display: flex;
+    width: 100%;
+
+}
+
+
+.FieldLabel {
+    width: 13.875rem; /* 222px */
+    height: 3.4375rem; /* 55px */
+    gap: 0.1875rem; /* 3px */
+}
+
+.memeButton {
+    /*width: 29.8125rem; !* 477px *!*/
+    width:100%;
+    height: 2.5rem; /* 40px */
+    border-radius: 0.3125rem; /* 5px */
+    justify-content: center;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+.memeButtonDiv {
+   display: flex;
+    justify-content: center;
+    padding-left: 2.3125rem; /* 37px */
+    padding-right: 2.3125rem; /* 37px */
+    padding-top:2.3125rem;
+
 }
